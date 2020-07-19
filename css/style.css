@@ -5,7 +5,11 @@ html {
 header {
     background-image: url('../media/banner.jpg');
     background-size: cover;
-    border-bottom:  0.50em solid rgba(95, 114, 133, 0.8);
+    border-bottom: 0.25em solid rgba(95, 114, 133, 0.5);
+}
+
+a {
+    text-decoration: none;
 }
 
 .logo {
@@ -45,7 +49,43 @@ h2{
     margin-right: auto;
     margin-left: auto;
     display: block;
+    width: 8%;
+}
+
+.features_images {
+    margin: 2em auto 2em auto;
+    padding-top: 3em;
+    border-top:  0.15em solid rgba(95, 114, 133, 0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.features_images img {
     width: 10%;
+    border-radius: 4em;
+    border: 0.2em solid rgb(0,0,0,0.5);
+}
+
+.features_text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.features_text h4 {
+    text-align: center;
+    text-shadow: 0.06em 0.06em rgb(0,0,0,0.2);
+    color: #35495e;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bolder;    
+    font-size: 1.05em;
+    width: 20%;
+    border-left:  0.05em solid rgba(95, 114, 133, 0.8);
+    border-right:  0.05em solid rgba(95, 114, 133, 0.8);
 }
 
 .apptop, .appbottom {
@@ -54,7 +94,7 @@ h2{
     align-items: center;
     margin: 2em auto 2em auto;
     padding-top: 3em;
-    border-top:  0.25em solid rgba(95, 114, 133, 0.8);
+    border-top:  0.15em solid rgba(95, 114, 133, 0.5);
     width: 100%;
 }
 
