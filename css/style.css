@@ -1,0 +1,134 @@
+html {
+    background-color: #E7E5FB;
+}
+
+header {
+    background-image: url('../media/banner.jpg');
+    background-size: cover;
+    border-bottom:  0.50em solid rgba(95, 114, 133, 0.8);
+}
+
+.logo {
+    width: 33%;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2em;
+}
+
+.nav span {
+    margin: auto 0.8em auto 0.8em;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bolder;
+    font-size:1.3em;
+    color: #35495e;
+    text-shadow: 0.06em 0.06em rgb(0,0,0,0.2);
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 0.06em 0.06em rgb(0,0,0,0.2);
+    color: #35495e;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bolder;
+}
+
+h2{
+    text-align: center;
+    text-shadow: 0.06em 0.06em rgb(0,0,0,0.2);
+    color: #35495e;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bolder; 
+}
+
+.logotipo {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 10%;
+}
+
+.apptop, .appbottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2em auto 2em auto;
+    padding-top: 3em;
+    border-top:  0.25em solid rgba(95, 114, 133, 0.8);
+    width: 100%;
+}
+
+.apptop img.left {
+    width: 21%;
+    border-radius: 5em;
+    border: 0.3em solid rgb(0,0,0,0.5);
+    margin-left: 5em;
+}
+
+.apptop img.right {
+    width: 21%;
+    border-radius: 5em;
+    border: 0.3em solid rgb(0,0,0,0.5);
+    margin-right: 5em;
+}
+
+.apptop h3 {
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow: 0.06em 0.06em rgb(0,0,0,0.2);
+    color: #35495e;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bolder;
+    border-left:  0.05em solid rgba(95, 114, 133, 0.8);
+    border-right:  0.05em solid rgba(95, 114, 133, 0.8);
+}
+
+.appbottom img.left {
+    width: 21%;
+    border-radius: 5em;
+    border: 0.3em solid rgb(0,0,0,0.5);
+    margin-left: 27em;
+    margin-right: 0.5em;
+
+}
+
+.appbottom aside h3 {
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow: 0.06em 0.06em rgb(0,0,0,0.2);
+    color: #35495e;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bolder;
+    border-left:  0.05em solid rgba(95, 114, 133, 0.8);
+    border-right:  0.05em solid rgba(95, 114, 133, 0.8);
+    width: 55%;
+}
+
+.appstore {
+    width: 30%;
+    display: inline-block;
+}
+
+.footer {
+    width: 100%;
+    color: #35495e;
+    background-color: #35495e;
+    border-top: 0.25em solid rgba(95, 114, 133, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.footer span {
+    color: #E7E5FB;
+    display: inline-block;
+    text-align: center;
+    text-shadow: 0.06em 0.06em rgb(0,0,0,0.2);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 0.8em;
+}
+
+.logotipo_footer {
+    display: inline-block;
+    width: 6%;
+}
